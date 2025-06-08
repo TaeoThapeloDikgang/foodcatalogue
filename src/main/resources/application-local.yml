@@ -1,16 +1,15 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://thapelohost:9999/eureka/
+      defaultZone: http://thapslocalhost:0999/eureka
 
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/foodcataloguedb
-    username: root
-    password: 1234567890Tg!
+    password: root
+    username: 1234567890Tg!
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
-
